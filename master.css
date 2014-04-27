@@ -13,12 +13,16 @@ body {
 }
 
 #top-panel td #searchform a {
-    background: none;
+    background: none; 
+}
+
+#top-panel td #searchform a img {
+  display: none;
 }
 
 #top-panel td > a {
     display: block;
-    background: url("https://dl.dropboxusercontent.com/u/13415461/hwfalcon.png") 0 0 no-repeat;
+    background: url("hawk.png") 0 0 no-repeat;
     display: block;
     width: 354px;
     height: 64px;
@@ -27,6 +31,10 @@ body {
 
 #top-panel td > a img {
   display: none;
+}
+
+#left-top-nav {
+   display: none !important;
 }
 
 #breadcrumbs {
@@ -240,8 +248,13 @@ table {
     border: none !important;
 }
 
+.task:hover {
+   background: white !important;
+}
+
 .task > a, .subtasks > a {
     color: #505050 !important;
+    text-decoration: none !important;
 }
 
 #resizeContainer {
