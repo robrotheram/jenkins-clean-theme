@@ -4,7 +4,8 @@ body {
 
 #top-panel {
     height: 37px !important;
-    background: #036;
+    background: #39c;
+    background-size:100% 100%;
 }
 
 #top-panel td #login-field span a {
@@ -17,7 +18,15 @@ body {
 
 #top-panel td > a {
     display: block;
-    width: 300px;
+    background: url("https://dl.dropboxusercontent.com/u/13415461/hwfalcon.png") 0 0 no-repeat;
+    display: block;
+    width: 354px;
+    height: 64px;
+    margin: 0px 0 -5px 0px;
+}
+
+#top-panel td > a img {
+  display: none;
 }
 
 #breadcrumbs {
