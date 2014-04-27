@@ -193,6 +193,7 @@ td.inactive {
 
 td.inactive a {
     color: #505050 !important;
+    text-decoration: none !important;
 }
 
 td {
@@ -203,7 +204,7 @@ td {
 }
 
 td.inactive:hover {
-    background: white !important;
+    background: #f0f0f0 !important;
 }
 
 #side-panel {
