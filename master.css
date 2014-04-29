@@ -2,6 +2,67 @@ body {
     background: #F0F0F0 !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+   color: #666 !important;
+}
+
+a b {
+    text-decoration: none !important;
+}
+
+a b:hover {
+   color: #f0f0f0 !important;
+}
+
+.model-link {
+     color: #666 !important;
+}
+
+.model-link:hover {
+     color: #555 !important;
+     background: #f0f0f0 !important;
+}
+
+#login-field {
+    background: transparent !important;
+}
+
+.icon16x16 {
+    display: none !important;
+}
+
+#menuSelector {
+  display: none !important;
+}
+
+.healthReportDetails {
+    background: #bbb !important;
+}
+
+.healthReportDetails tr {
+    border: 0px !important;
+}
+
+.healthReportDetails table {
+    border: 0px !important;
+}
+
+#search-box:focus {
+    background: #f0f0f0 !important;
+}
+
+#description-link {
+    text-decoration: none !important;
+}
+
+#description-link:hover {
+    background: #f0f0f0 !important;
+}
+
 #top-panel {
     height: 37px !important;
     background: #39c;
@@ -136,10 +197,6 @@ a {
     text-decoration: none !important;
 }
 
-a:hover {
-    text-decoration: underline !important;
-}
-
 .smallfont > a:hover {
     text-decoration: none !important;
 }
@@ -252,9 +309,14 @@ table {
    background: white !important;
 }
 
+.task-icon-link {
+    vertical-align: middle !important;
+}
+
 .task > a, .subtasks > a {
     color: #505050 !important;
     text-decoration: none !important;
+    vertical-align: middle !important;
 }
 
 #resizeContainer {
@@ -270,8 +332,8 @@ table {
 }
 
 #side-panel div {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #side-panel tr {
@@ -280,10 +342,6 @@ table {
 
 .pane {
     margin-top: 15px !important;
-}
-
-.task, .subtasks {
-    min-height: 38px !important;
 }
 
 .subtasks:empty {
@@ -402,6 +460,10 @@ li.item > .inside {
 
 td.pane-header > div > a.collapse {
     position: relative;
+}
+
+#l10n-footer {
+       display: none !important; 
 }
 
 /* color blocks */
