@@ -31,122 +31,122 @@ a.task-icon-link img {
 
 /* The small nav icons */
 a[href*="/job/"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/return.png) no-repeat !important; 
+  background: url(img/return.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 #tasks div:nth-child(2) a[href*="/job/"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/project.png) no-repeat !important; 
+  background: url(img/project.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/view/All/newJob"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/newjob.png) no-repeat !important; 
+  background: url(img/newjob.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/asynchPeople/"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/people.png) no-repeat !important; 
+  background: url(img/people.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/view/All/builds"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/history.png) no-repeat !important; 
+  background: url(img/history.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/projectRelationship"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/project.png) no-repeat !important; 
+  background: url(img/project.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="/fingerprint"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/finger.png) no-repeat !important; 
+  background: url(img/finger.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/manage"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/manage.png) no-repeat !important; 
+  background: url(img/manage.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/credential-store"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/lock.png) no-repeat !important; 
+  background: url(img/lock.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="repository"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/maven.png) no-repeat !important; 
+  background: url(img/maven.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/me/my-views"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/views.png) no-repeat !important; 
+  background: url(img/views.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href="/"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/return.png) no-repeat !important; 
+  background: url(img/return.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="changes"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/paper.png) no-repeat !important; 
+  background: url(img/paper.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="/ws/"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/folder.png) no-repeat !important; 
+  background: url(img/folder.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="configure"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/manage.png) no-repeat !important; 
+  background: url(img/manage.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="modules"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/views.png) no-repeat !important; 
+  background: url(img/views.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="build?"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/build.png) no-repeat !important; 
+  background: url(img/build.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="javadoc"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/box.png) no-repeat !important; 
+  background: url(img/box.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="console"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/console.png) no-repeat !important; 
+  background: url(img/console.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="Delete"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/x.png) no-repeat !important; 
+  background: url(img/x.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="git"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/git.png) no-repeat !important; 
+  background: url(img/git.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="/testReport"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/clip.png) no-repeat !important; 
+  background: url(img/clip.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 a[href*="/redeploy"].task-icon-link { 
-  background: url(http://hawkfalcon.com/downloads/img/redeploy.png) no-repeat !important; 
+  background: url(img/redeploy.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 div.task a[href="#"]:first-child { 
-  background: url(http://hawkfalcon.com/downloads/img/x.png) no-repeat !important; 
+  background: url(img/x.png) no-repeat !important; 
   background-size: contain !important;
   padding-left: 18px; /* Equal to width of new image */
   margin-left: 8px;
@@ -165,17 +165,17 @@ a.build-health-link img {
 }
 
 td.healthReport a.build-health-link { 
-  background: url(http://hawkfalcon.com/downloads/img/cloud.png) no-repeat !important; 
+  background: url(img/cloud.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 td.healthReport[data="100"] a.build-health-link { 
-  background: url(http://hawkfalcon.com/downloads/img/sun.png) no-repeat !important; 
+  background: url(img/sun.png) no-repeat !important; 
   background-size: contain !important;
 }
 
 #projectstatus td a[href*="build?"] { 
-  background: url(http://hawkfalcon.com/downloads/img/build.png) no-repeat !important; 
+  background: url(img/build.png) no-repeat !important; 
   background-size: contain !important;
   padding-left: 24px; /* Equal to width of new image */
   margin-left: 12px;
@@ -189,7 +189,7 @@ td.healthReport[data="100"] a.build-health-link {
 /* Large project icons */
 
 td:first-child a[href="javadoc"] {
-  background: url(http://hawkfalcon.com/downloads/img/box.png) no-repeat !important; 
+  background: url(img/box.png) no-repeat !important; 
   background-size: contain !important;
   padding: 24px !important;
   display: block !important;
@@ -200,7 +200,7 @@ a[href="javadoc"] img {
 }
 
 td:first-child a[href="ws/"] {
-  background: url(http://hawkfalcon.com/downloads/img/folder.png) no-repeat !important; 
+  background: url(img/folder.png) no-repeat !important; 
   background-size: contain !important;
   padding: 24px !important;
   display: block !important;
@@ -211,13 +211,13 @@ a[href="ws/"] img {
 }
 
 td:first-child a[href="changes"] {
-  background: url(http://hawkfalcon.com/downloads/img/paper.png) no-repeat !important; 
+  background: url(img/paper.png) no-repeat !important; 
   background-size: contain !important;
   padding: 24px !important;
 }
 
 #main-panel > table a[href="lastSuccessfulBuild/artifact/"] {
-  background: url(http://hawkfalcon.com/downloads/img/target.png) no-repeat !important; 
+  background: url(img/target.png) no-repeat !important; 
   background-size: contain !important;
   padding: 24px !important;
   padding-left: 70px !important;
