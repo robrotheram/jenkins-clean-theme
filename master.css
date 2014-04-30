@@ -18,6 +18,15 @@ a b:hover {
    color: #f0f0f0 !important;
 }
 
+#description div {
+  padding-bottom: 20px !important;
+}
+
+#description > div:nth-of-type(2) {
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
 a.task-icon-link { 
   padding-left: 18px; /* Equal to width of new image */
   margin-left: 8px;
@@ -166,6 +175,10 @@ a.build-health-link {
 }
 
 a.build-health-link img { 
+  display: none !important;
+}
+
+td img[src*="health"] { 
   display: none !important;
 }
 
