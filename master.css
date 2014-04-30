@@ -40,17 +40,17 @@ a[href*="/job/"].task-icon-link {
   background-size: contain !important;
 }
 
-a[href="/view/All/newJob"].task-icon-link { 
+a[href*="newJob"].task-icon-link { 
   background: url(img/newjob.png) no-repeat !important; 
   background-size: contain !important;
 }
 
-a[href="/asynchPeople/"].task-icon-link { 
+a[href*="/asynchPeople/"].task-icon-link { 
   background: url(img/people.png) no-repeat !important; 
   background-size: contain !important;
 }
 
-a[href="/view/All/builds"].task-icon-link { 
+a[href*="/builds"].task-icon-link { 
   background: url(img/history.png) no-repeat !important; 
   background-size: contain !important;
 }
@@ -70,7 +70,7 @@ a[href="/manage"].task-icon-link {
   background-size: contain !important;
 }
 
-a[href="/credential-store"].task-icon-link { 
+a[href*="/credential-store"].task-icon-link { 
   background: url(img/lock.png) no-repeat !important; 
   background-size: contain !important;
 }
@@ -126,6 +126,11 @@ a[href*="console"].task-icon-link {
 }
 
 a[href*="Delete"].task-icon-link { 
+  background: url(img/x.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="delete"].task-icon-link { 
   background: url(img/x.png) no-repeat !important; 
   background-size: contain !important;
 }
