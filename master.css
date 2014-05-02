@@ -571,6 +571,7 @@ td.inactive:hover {
     height: 100% !important;
     position: fixed;
     margin-top: 45pt;
+    width: 20%;
 }
 
 #main-panel {
