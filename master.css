@@ -354,9 +354,11 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 }
 
 #top-panel {
-    height: 37px !important;
+    height: 60px !important;
     background: #39c;
     background-size:100% 100%;
+    position: fixed;
+    width: 100%;
 }
 
 #top-panel td #login-field span a {
@@ -567,11 +569,13 @@ td.inactive:hover {
     padding-left: 0px !important;
     padding-right: 0px !important;
     height: 100% !important;
+    position: fixed;
+    margin-top: 45pt;
 }
 
 #main-panel {
     border-left: 1px solid #ddd !important;
-    padding: 10px !important;
+    padding: 70px 0px 100px 10px !important;
     margin-left: 10px !important;
     height: 100% !important;
 }
