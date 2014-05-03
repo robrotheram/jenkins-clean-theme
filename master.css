@@ -636,11 +636,35 @@ table {
 }
 
 .pane {
-    margin-top: 15px !important;
+    margin-top: 255px !important;
+    display: inherit;
 }
 
 .subtasks:empty {
 	display: none;
+}
+
+#tasks {
+    padding: 4px;
+    position: fixed;
+    display: block;
+    margin-top: 38pt;
+    background: #f0f0f0 !important;
+    width: 20.2%;
+    overflow: auto;
+    height: 200px;
+}
+
+td.pane-header {
+    border: 1px #bbb solid;
+    border-right: none;
+    border-left: none;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding-right: 24px;
+    width: 20.15%;
+    position: fixed;
+    padding-bottom: 10px;
 }
 
 td.pane, tr.build-row > td {
