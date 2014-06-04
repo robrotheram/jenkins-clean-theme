@@ -355,8 +355,9 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 
 #top-panel {
     height: 37px !important;
-    background: #39c;
-    background-size:100% 100%;
+    padding: 15px 0 10px;
+    background: #3B3D44;
+    border-bottom: 4px solid #3590E6 !important;
 }
 
 #top-panel td #login-field span a {
@@ -373,11 +374,11 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 
 #top-panel td > a {
     display: block;
-    background: url("hawk.png") 0 0 no-repeat;
-    display: block;
+    background: url("https://cdn.mediacru.sh/PghQ0cj1j2YI.svg") 0 0 no-repeat;
+    background-size: contain !important;
     width: 354px;
-    height: 64px;
-    margin: 0px 0 -5px 0px;
+    height: 70px;
+    margin: 0 0 0 10px;
 }
 
 #top-panel td > a img {
@@ -386,28 +387,6 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 
 #left-top-nav {
    display: none !important;
-}
-
-#breadcrumbs {
-    background: #326ca6;
-    border-top: 1px solid #036;
-    border-bottom: none !important;
-    margin-bottom: 10px;
-    padding-left: 8px !important;
-}
-
-#breadcrumbs li a {
-    color: #fff !important;
-}
-
-#breadcrumbs li a {
-    color: #fff !important;
-}
-
-#breadcrumbs li a:hover {
-    background: white;
-    color: black !important;
-    text-decoration: none !important;
 }
 
 #right-top-nav  a {
@@ -563,7 +542,7 @@ td.inactive:hover {
 }
 
 #side-panel {
-    background: #f0f0f0 !important;
+    background: #EEEEEE !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
     height: 100% !important;
