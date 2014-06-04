@@ -388,28 +388,6 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
    display: none !important;
 }
 
-#breadcrumbs {
-    background: #326ca6;
-    border-top: 1px solid #036;
-    border-bottom: none !important;
-    margin-bottom: 10px;
-    padding-left: 8px !important;
-}
-
-#breadcrumbs li a {
-    color: #fff !important;
-}
-
-#breadcrumbs li a {
-    color: #fff !important;
-}
-
-#breadcrumbs li a:hover {
-    background: white;
-    color: black !important;
-    text-decoration: none !important;
-}
-
 #right-top-nav  a {
     color: #fff !important;
     margin-top: 1px;
