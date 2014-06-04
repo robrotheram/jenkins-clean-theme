@@ -261,15 +261,15 @@ td:first-child a[href="changes"] {
 }
 
 #main-panel > table .fileList img {
-	display: none !important;
+  display: none !important;
 }
 
 #main-panel > table > tbody > tr img[src*="package"] {
-	display: none !important;
+  display: none !important;
 }
 
 #main-panel > table > tbody > tr img[src*="clipboard"] {
-	display: none !important;
+  display: none !important;
 }
 
 /* Text changes */
@@ -286,7 +286,7 @@ a[href="changes"] img {
 }
 
 td[style="vertical-align:middle"] a[href="ws/"] {
-	background: transparent !important;
+  background: transparent !important;
 }
 
 a[href="#"] img {
@@ -354,11 +354,9 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 }
 
 #top-panel {
-    height: 60px !important;
+    height: 37px !important;
     background: #39c;
     background-size:100% 100%;
-    position: fixed;
-    width: 100%;
 }
 
 #top-panel td #login-field span a {
@@ -477,7 +475,7 @@ a {
 }
 
 #login-field a {
-	color: white !important;
+  color: white !important;
 }
 
 #login-field > span > a {
@@ -569,14 +567,11 @@ td.inactive:hover {
     padding-left: 0px !important;
     padding-right: 0px !important;
     height: 100% !important;
-    /*position: fixed;
-    margin-top: 45pt;*/
-    width: 20.05%;
 }
 
 #main-panel {
     border-left: 1px solid #ddd !important;
-    padding: 70px 0px 100px 10px !important;
+    padding: 10px !important;
     margin-left: 10px !important;
     height: 100% !important;
 }
@@ -636,43 +631,11 @@ table {
 }
 
 .pane {
-    margin-top: 255px !important;
-    display: inherit;
+    margin-top: 15px !important;
 }
 
 .subtasks:empty {
-	display: none;
-}
-
-#tasks {
-    background: none repeat scroll 0 0 #F0F0F0 !important;
-    display: block;
-    margin-top: 45pt;
-    padding: 4px;
-    position: fixed;
-    top: 0;
-    width: 20.05%;
-}
-
-#buildHistory {
-    margin-top: 255px !important;
-}
-
-#buildHistory > tbody > tr > td.pane-header > div {
-    background: none repeat scroll 0 0 #F0F0F0 !important;
-    display: block;
-    height: 20px;
-    left: 0;
-    position: fixed;
-    text-align: left;
-    top: 250px;
-    width: 18.8%;
-}
-
-a.tip {
-    /* position: relative; */
-    text-decoration: underline;
-    z-index: 24;
+  display: none;
 }
 
 td.pane, tr.build-row > td {
