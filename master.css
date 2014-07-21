@@ -159,6 +159,11 @@ a[href*="/redeploy"].task-icon-link {
   background-size: contain !important;
 }
 
+a[href*="/GitHubPollLog"].task-icon-link {
+    background: url(img/git.png) no-repeat!important;
+    background-size: contain!important;
+}
+
 div.task a[href="#"]:first-child { 
   background: url(img/x.png) no-repeat !important; 
   background-size: contain !important;
