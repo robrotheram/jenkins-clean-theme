@@ -1,5 +1,9 @@
-body {
+#body {
     background: #F0F0F0 !important;
+}
+
+#header {
+    height: 0;
 }
 
 a {
@@ -7,7 +11,7 @@ a {
 }
 
 a:hover {
-   color: #666 !important;
+    color: #666 !important;
 }
 
 a b {
@@ -15,148 +19,148 @@ a b {
 }
 
 a b:hover {
-   color: #f0f0f0 !important;
+    color: #f0f0f0 !important;
 }
 
 #description div {
-  padding-bottom: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 #description > div:nth-of-type(2) {
-  margin-top: 0px !important;
-  padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
-a.task-icon-link { 
-  padding-left: 18px; /* Equal to width of new image */
-  margin-left: 8px;
-  vertical-align: middle !important;
+a.task-icon-link {
+    padding-left: 18px; /* Equal to width of new image */
+    margin-left: 8px;
+    vertical-align: middle !important;
 }
 
-a.task-icon-link img { 
-  display: none !important;
+a.task-icon-link img {
+    display: none !important;
 }
 
 
 /* The small nav icons */
-a[href*="/job/"].task-icon-link { 
-  background: url(img/return.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/job/"].task-icon-link {
+    background: url(img/return.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-#tasks div:nth-child(2) a[href*="/job/"].task-icon-link { 
-  background: url(img/project.png) no-repeat !important; 
-  background-size: contain !important;
+#tasks div:nth-child(2) a[href*="/job/"].task-icon-link {
+    background: url(img/project.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="newJob"].task-icon-link { 
-  background: url(img/newjob.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="newJob"].task-icon-link {
+    background: url(img/newjob.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/asynchPeople/"].task-icon-link { 
-  background: url(img/people.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/asynchPeople/"].task-icon-link {
+    background: url(img/people.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/builds"].task-icon-link { 
-  background: url(img/history.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/builds"].task-icon-link {
+    background: url(img/history.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href="/projectRelationship"].task-icon-link { 
-  background: url(img/project.png) no-repeat !important; 
-  background-size: contain !important;
+a[href="/projectRelationship"].task-icon-link {
+    background: url(img/project.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/fingerprint"].task-icon-link { 
-  background: url(img/finger.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/fingerprint"].task-icon-link {
+    background: url(img/finger.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href="/manage"].task-icon-link { 
-  background: url(img/manage.png) no-repeat !important; 
-  background-size: contain !important;
+a[href="/manage"].task-icon-link {
+    background: url(img/manage.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/credential-store"].task-icon-link { 
-  background: url(img/lock.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/credential-store"].task-icon-link {
+    background: url(img/lock.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="repository"].task-icon-link { 
-  background: url(img/maven.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="repository"].task-icon-link {
+    background: url(img/maven.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href="/me/my-views"].task-icon-link { 
-  background: url(img/views.png) no-repeat !important; 
-  background-size: contain !important;
+a[href="/me/my-views"].task-icon-link {
+    background: url(img/views.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href="/"].task-icon-link { 
-  background: url(img/return.png) no-repeat !important; 
-  background-size: contain !important;
+a[href="/"].task-icon-link {
+    background: url(img/return.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="changes"].task-icon-link { 
-  background: url(img/paper.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="changes"].task-icon-link {
+    background: url(img/paper.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/ws/"].task-icon-link { 
-  background: url(img/folder.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/ws/"].task-icon-link {
+    background: url(img/folder.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="configure"].task-icon-link { 
-  background: url(img/manage.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="configure"].task-icon-link {
+    background: url(img/manage.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="modules"].task-icon-link { 
-  background: url(img/views.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="modules"].task-icon-link {
+    background: url(img/views.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="build?"].task-icon-link { 
-  background: url(img/build.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="build?"].task-icon-link {
+    background: url(img/build.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="javadoc"].task-icon-link { 
-  background: url(img/box.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="javadoc"].task-icon-link {
+    background: url(img/box.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="console"].task-icon-link { 
-  background: url(img/console.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="console"].task-icon-link {
+    background: url(img/console.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="Delete"].task-icon-link { 
-  background: url(img/x.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="Delete"].task-icon-link {
+    background: url(img/x.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="delete"].task-icon-link { 
-  background: url(img/x.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="delete"].task-icon-link {
+    background: url(img/x.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="git"].task-icon-link { 
-  background: url(img/git.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="git"].task-icon-link {
+    background: url(img/git.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/testReport"].task-icon-link { 
-  background: url(img/clip.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/testReport"].task-icon-link {
+    background: url(img/clip.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-a[href*="/redeploy"].task-icon-link { 
-  background: url(img/redeploy.png) no-repeat !important; 
-  background-size: contain !important;
+a[href*="/redeploy"].task-icon-link {
+    background: url(img/redeploy.png) no-repeat !important;
+    background-size: contain !important;
 }
 
 a[href*="/GitHubPollLog"].task-icon-link {
@@ -164,166 +168,198 @@ a[href*="/GitHubPollLog"].task-icon-link {
     background-size: contain!important;
 }
 
-div.task a[href="#"]:first-child { 
-  background: url(img/x.png) no-repeat !important; 
-  background-size: contain !important;
-  padding-left: 18px; /* Equal to width of new image */
-  margin-left: 8px;
-  vertical-align: middle !important;
+div.task a[href="#"]:first-child {
+    background: url(img/x.png) no-repeat !important;
+    background-size: contain !important;
+    padding-left: 18px; /* Equal to width of new image */
+    margin-left: 8px;
+    vertical-align: middle !important;
 }
 
 /* The suns */
-a.build-health-link { 
-  padding-left: 24px; /* Equal to width of new image */
-  margin-left: 12px;
-  vertical-align: middle !important;
+a.build-health-link {
+    padding-left: 24px; /* Equal to width of new image */
+    margin-left: 12px;
+    vertical-align: middle !important;
 }
 
-a.build-health-link img { 
-  display: none !important;
+a.build-health-link img {
+    display: none !important;
 }
 
-td img[src*="health"] { 
-  display: none !important;
+td img[src*="health"] {
+    display: none !important;
 }
 
-td.healthReport a.build-health-link { 
-  background: url(img/cloud.png) no-repeat !important; 
-  background-size: contain !important;
+td.healthReport a.build-health-link {
+    background: url(img/cloud.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-td.healthReport[data="100"] a.build-health-link { 
-  background: url(img/sun.png) no-repeat !important; 
-  background-size: contain !important;
+td.healthReport[data="100"] a.build-health-link {
+    background: url(img/sun.png) no-repeat !important;
+    background-size: contain !important;
 }
 
-#projectstatus td a[href*="build?"] { 
-  background: url(img/build.png) no-repeat !important; 
-  background-size: contain !important;
-  padding-left: 24px; /* Equal to width of new image */
-  margin-left: 12px;
+#projectstatus td a[href*="build?"] {
+    background: url(img/build.png) no-repeat !important;
+    background-size: contain !important;
+    padding-left: 24px; /* Equal to width of new image */
+    margin-left: 12px;
 }
 
 #projectstatus td a[href*="build?"] img {
-  display: none !important;
+    display: none !important;
 }
 
 
 /* Large project icons */
 
 td:first-child a[href="javadoc"] {
-  background: url(img/box.png) no-repeat !important; 
-  background-size: contain !important;
-  padding: 24px !important;
-  display: block !important;
+    background: url(img/box.png) no-repeat !important;
+    background-size: contain !important;
+    padding: 24px !important;
+    display: block !important;
 }
 
 a[href="javadoc"] img {
-   display: none !important;
+    display: none !important;
 }
 
 td:first-child a[href="ws/"] {
-  background: url(img/folder.png) no-repeat !important; 
-  background-size: contain !important;
-  padding: 24px !important;
-  display: block !important;
+    background: url(img/folder.png) no-repeat !important;
+    background-size: contain !important;
+    padding: 24px !important;
+    display: block !important;
 }
 
 a[href="ws/"] img {
-   display: none !important;
+    display: none !important;
 }
 
 td:first-child a[href="changes"] {
-  background: url(img/paper.png) no-repeat !important; 
-  background-size: contain !important;
-  padding: 24px !important;
+    background: url(img/paper.png) no-repeat !important;
+    background-size: contain !important;
+    padding: 24px !important;
 }
 
 #main-panel > table a[href="lastSuccessfulBuild/artifact/"] {
-  background: url(img/target.png) no-repeat !important; 
-  background-size: contain !important;
-  padding: 24px !important;
-  padding-left: 70px !important;
-  display: block !important;
-  margin-left: -60px !important;
+    background: url(img/target.png) no-repeat !important;
+    background-size: contain !important;
+    padding: 24px !important;
+    padding-left: 70px !important;
+    display: block !important;
+    margin-left: -60px !important;
 }
 
 #main-panel > table a[href*="lastSuccessfulBuild/artifact/target/"]:first-child {
-   padding-left: 50px !important;
-   display: block !important;
-   margin-top: -20px;
-   color: black !important;
+    padding-left: 50px !important;
+    display: block !important;
+    margin-top: -20px;
+    color: black !important;
 }
 
 #main-panel > table .fileSize {
-   padding-left: 30px !important;
-   display: block !important;
-   margin-top: -20px;
+    padding-left: 30px !important;
+    display: block !important;
+    margin-top: -20px;
 }
 
 #main-panel > table a[href*="*view*"] {
-   display: none !important;
+    display: none !important;
 }
 
 #main-panel > table .fileList img {
-  display: none !important;
+    display: none !important;
 }
 
 #main-panel > table > tbody > tr img[src*="package"] {
-  display: none !important;
+    display: none !important;
 }
 
 #main-panel > table > tbody > tr img[src*="clipboard"] {
-  display: none !important;
+    display: none !important;
 }
 
 /* Text changes */
 #main-panel > table > tbody a[href*=".jar"] {
-  font-weight:bold !important;
-  color: #666 !important;
-  vertical-align: middle !important;
+    font-weight:bold !important;
+    color: #666 !important;
+    vertical-align: middle !important;
 }
 
 
 /* Misc fixes */
 a[href="changes"] img {
-   display: none !important;
+    display: none !important;
 }
 
 td[style="vertical-align:middle"] a[href="ws/"] {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 a[href="#"] img {
-   display: none !important;
-} 
+    display: none !important;
+}
 
 /* Just remove the page-icons */
-#main-panel h1 img {
-    display: none !important;
+#jenkins-name-icon {
+    display: none;
+}
+
+#jenkins-head-icon {
+    opacity: 0;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+#jenkins-home-link {
+    display: block;
+    background: url("hawk.png") 0 0 no-repeat;
+    height: 64px;
+    width: 354px;
+}
+
+/* Resize breadcrumb bar into a sexy header */
+#breadcrumbBar {
+    background-color: #39c !important;
+    display: block;
+    height: 60px!important;
+}
+
+/* Be gone, evil breadcrumbs */
+#breadcrumbs {
+    display: none;
 }
 
 /*Start other CSS */
 .model-link.inside {
-   padding-right: 0px !important;
+    padding-right: 0px !important;
 }
 
 .model-link {
-     color: #666 !important;
+    color: #666 !important;
 }
 
 .model-link:hover {
-     color: #555 !important;
-     background: #f0f0f0 !important;
+    color: #555 !important;
+    background: #f0f0f0 !important;
+}
+
+.login span a {
+    color: #fff !important;
+    background: none;
+}
+
+.login span a:hover {
+    color: #000;
 }
 
 a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
-     color: #555 !important;
-     background: #f0f0f0 !important;
-}
-
-#login-field a {
-    background: transparent !important;
+    color: #555 !important;
+    background: #f0f0f0 !important;
 }
 
 .icon16x16 {
@@ -331,7 +367,7 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 }
 
 #menuSelector {
-  display: none !important;
+    display: none !important;
 }
 
 .healthReportDetails {
@@ -346,7 +382,7 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
     border: 0px !important;
 }
 
-#search-box:focus {
+#searchform:focus {
     background: #f0f0f0 !important;
 }
 
@@ -358,44 +394,28 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
     background: #f0f0f0 !important;
 }
 
-#top-panel {
-    height: 37px !important;
-    background: #39c;
-    background-size:100% 100%;
-}
-
-#top-panel td #login-field span a {
+td #searchform a {
     background: none;
 }
 
-#top-panel td #searchform a {
-    background: none; 
-}
-
-#top-panel td #searchform a img {
-  display: none;
-}
-
-#top-panel td > a {
-    display: block;
-    background: url("hawk.png") 0 0 no-repeat;
-    display: block;
-    width: 354px;
-    height: 64px;
-    margin: 0px 0 -5px 0px;
-}
-
-#top-panel td > a img {
-  display: none;
+td #searchform a img {
+    display: none;
 }
 
 #left-top-nav {
-   display: none !important;
+    display: none !important;
+}
+
+#right-top-nav {
+    position: relative;
+    top: 20px;
+    left: 6px;
 }
 
 #right-top-nav  a {
+    background: transparent !important;
     color: #fff !important;
-    margin-top: 1px;
+    text-decoration-color: #fff;
     text-decoration: none;
     display: block;
     padding-left: 5px;
@@ -403,7 +423,6 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 }
 
 #right-top-nav  a:hover {
-    background: white;
     color: black !important;
 }
 
@@ -430,11 +449,6 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
     padding-bottom: 5px;
 }
 
-/* dat selector */
-#top-panel > table > tbody > tr > td:first-of-type > a  > img {
-    margin-top: 5px;
-}
-
 #searchform a {
     display: block;
     margin-top: 4px;
@@ -448,25 +462,24 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
     color: #505050 !important;
 }
 
+#footer-container {
+    background: #F0F0F0;
+}
+
+#footer > span {
+    color: #505050 !important;
+}
+
+#l10n-footer {
+    display: none !important;
+}
+
 #footer > a {
     color: #326ca6 !important;
 }
 
 a {
     color: #326ca6 !important;
-    text-decoration: none !important;
-}
-
-#login-field a {
-  color: white !important;
-}
-
-#login-field > span > a {
-    color: white !important;
-    font-weight: normal !important;
-}
-
-#login-field > span > a:hover {
     text-decoration: none !important;
 }
 
@@ -549,14 +562,15 @@ td.inactive:hover {
     background: #f0f0f0 !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    height: 100% !important;
+    height: 100%;
+    max-width: 20%;
 }
 
 #main-panel {
     border-left: 1px solid #ddd !important;
     padding: 10px !important;
-    margin-left: 10px !important;
     height: 100% !important;
+    max-width: 85%;
 }
 
 table {
@@ -579,7 +593,7 @@ table {
 }
 
 .task:hover {
-   background: white !important;
+    background: white !important;
 }
 
 .task-icon-link {
@@ -618,7 +632,7 @@ table {
 }
 
 .subtasks:empty {
-  display: none;
+    display: none;
 }
 
 td.pane, tr.build-row > td {
@@ -731,10 +745,6 @@ td.pane-header > div > a.collapse {
     position: relative;
 }
 
-#l10n-footer {
-       display: none !important; 
-}
-
 /* color blocks */
 @-webkit-keyframes inprogress {
     0% {
@@ -761,15 +771,15 @@ td.pane-header > div > a.collapse {
 }
 
 Keyframes inprogress {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 1;
-    }
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.1;
+}
+100% {
+    opacity: 1;
+}
 }
 
 img[src$="blue.png"],     img[src$="blue.gif"],     img[src$="blue_anime.gif"],
