@@ -343,9 +343,19 @@ a[href="#"] img {
     color: #666 !important;
 }
 
-.model-link:hover {
+.model-link:not(.login span a):hover {
     color: #555 !important;
     background: #f0f0f0 !important;
+}
+
+.login a[href^="/login"],a[href^="/signup"] {
+    color: #fff !important;
+    background: none;
+}
+
+.login a[href^="/login"]:hover,a[href^="/signup"]:hover {
+    color: #000;
+    background: none;
 }
 
 .login span a {
@@ -355,6 +365,7 @@ a[href="#"] img {
 
 .login span a:hover {
     color: #000;
+    background: none;
 }
 
 a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
