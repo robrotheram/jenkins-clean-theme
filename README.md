@@ -3,7 +3,7 @@ jenkins-clean-theme
 
 This is a simple theme for jenkins using the "simple-theme-plugin"
 
-Updated and maintained by hawkfalcon. This is a fork of https://github.com/Dakota628/jenkins-clean-theme. As far as I know, the only jenkins with non-standard icons. 
+Updated and maintained by hawkfalcon. This is a fork of https://github.com/Dakota628/jenkins-clean-theme.
 
 Icons from http://colebemis.com/feather/. 
 
