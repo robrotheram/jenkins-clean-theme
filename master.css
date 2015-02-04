@@ -2,48 +2,78 @@ body {
     background: #fff!important;
 }
 
-#main-panel > ul:nth-child(8) > li > img {
-    margin-right: 10px;
-    margin-bottom: 10px;
+/* Custom icon */
+#jenkins-name-icon {
+    display: none;
 }
 
-#top-panel {
-    height: 55px!important;
-    padding-top: 15px;
-    padding-left: 5px;
-    background: #036;
+#jenkins-head-icon {
+    opacity: 0;
 }
 
-#top-panel td #login-field span a,#top-panel td #searchform a {
-    background: 0 0;
+.logo {
+    margin-bottom: 15px;
 }
 
-#top-panel td>a {
+#jenkins-home-link {
     display: block;
+    background: url("hawk.png") 0 0 no-repeat;
+    height: 60px;
+    width: 350px;
+}
+
+#header {
+    background: #39c!important;
+    height: 80px!important;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+#header .login a {
+    color: #fff!important;
     width: 300px;
 }
 
-#breadcrumbs {
-    background: #326ca6;
-    border-top: 1px solid #036;
-    border-bottom: none!important;
-    margin-bottom: 15px;
-    padding-left: 8px!important;
-    height: 35px!important;
-}
-
-#breadcrumbs li a {
-    color: #fff!important;
-    padding-top: 5px;
-    height: 30px!important;
-}
-
-#breadcrumbs li a:hover {
-    background: #fff;
-    color: #505050!important;
+#header .login a:hover {
+    color: #ccc!important;
     text-decoration: none!important;
 }
 
+/*Search box*/
+#header .searchbox, #header .login {
+    padding-top: 15px!important;
+}
+
+#filter-box,#search-box {
+    padding: 3px!important;
+    box-shadow: none!important;
+    background-image: none!important;
+    border: 1px solid #DDD!important;
+    border-radius: 2px!important;
+    outline: 0!important;
+}
+
+.yui-skin-sam .yui-ac {
+    margin-top: 3px!important;
+}
+
+#searchform a {
+    margin-top: 4px;
+    margin-left: 5px;
+    float: right;
+}
+
+/*The second bar with nav*/
+#breadcrumbs {
+    display: none;
+}
+
+.top-sticker {
+    display: none;
+}
+
+/*Enable auto refresh*/
 #right-top-nav a {
     color: #fff!important;
     margin-top: 1px;
@@ -51,7 +81,6 @@ body {
     display: block;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 5px;
     height: 30px!important;
 }
 
@@ -66,37 +95,9 @@ body {
     height: 100%!important;
 }
 
-#filter-box,#search-box {
-    padding: 3px!important;
-    box-shadow: none!important;
-    background-image: none!important;
-    border: 1px solid #DDD!important;
-    border-radius: 4px!important;
-    outline: 0!important;
-}
-
-.yui-skin-sam .yui-ac {
-    margin-top: 3px!important;
-}
-
-#search-form>a {
-    padding-bottom: 5px;
-}
-
-#top-panel>table>tbody>tr>td:first-of-type>a>img {
-    margin-top: 5px;
-}
-
-#searchform a {
-    display: block;
-    margin-top: 4px;
-    margin-left: 5px;
-    float: right;
-}
-
-#footer {
-    background: rgba(0,0,0,.04);
-    color: #505050!important;
+#footer-container {
+    background: rgba(0,0,0,.05)!important;
+    border: none!important;
 }
 
 #footer>a {
@@ -104,7 +105,6 @@ body {
 }
 
 #footer-container {
-    position: fixed;
 }
 
 a {
@@ -112,24 +112,8 @@ a {
     text-decoration: none!important;
 }
 
-#login-field a {
-    color: #fff!important;
-}
-
-#login-field>span>a {
-    color: #fff!important;
-    font-weight: 400!important;
-}
-
-#login-field>span>a:hover {
-    text-decoration: none!important;
-}
-
 a:hover {
-    text-decoration: underline!important;
-}
-
-.smallfont>a:hover {
+    color: #20466b!important;
     text-decoration: none!important;
 }
 
@@ -207,12 +191,12 @@ td.inactive {
     border: 1px solid rgba(0,0,0,.1)!important;
 }
 
-#viewList td {
-    padding-bottom: 5px;
-}
-
 .dashboard {
     margin-top: 10px!important;
+}
+
+.dashboard td {
+    vertical-align: middle!important;
 }
 
 .build-monitor.dashboard {
@@ -246,10 +230,16 @@ td.inactive:hover {
     position: absolute!important;
 }
 
+#side-panel div {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#side-panel tr {
+    border: none!important;
+}
+
 #main-panel {
-    border-left: 1px solid #ddd!important;
-    padding: 10px!important;
-    margin-left: 10px!important;
     height: 100%!important;
     float: right!important;
 }
@@ -269,38 +259,21 @@ table {
     color: #505050!important;
 }
 
-#resizeContainer {
-    border: none!important;
-}
-
-.dashboard td {
-    vertical-align: middle!important;
-}
-
-#description {
-    margin: 0!important;
-    overflow: auto;
-}
-
-#side-panel div {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-#side-panel tr {
-    border: none!important;
-}
-
-.pane {
-    margin-top: 15px!important;
+.subtasks:empty {
+    display: none;
 }
 
 .subtasks,.task {
     min-height: 38px!important;
 }
 
-.subtasks:empty {
-    display: none;
+#resizeContainer {
+    border: none!important;
+}
+
+#description {
+    margin: 0!important;
+    overflow: auto;
 }
 
 td.pane,tr.build-row>td {
@@ -325,6 +298,10 @@ form {
 
 .pane-header,.pane-header>a {
     color: #505050!important;
+}
+
+.pane-frame {
+    border: none;
 }
 
 th.pane,tr.build-row>th {
@@ -363,6 +340,7 @@ button {
     clear: right;
 }
 
+/*Replace icons*/
 a.task-icon-link {
     padding-left: 18px;
     margin-left: 8px;
@@ -371,6 +349,16 @@ a.task-icon-link {
 
 a.task-icon-link img {
     display: none!important;
+}
+
+img[src$="16x16/help.png"] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    padding-left: 16px;
+    background: url(img/help.png) no-repeat !important;
+    background-size: contain !important;
 }
 
 a[href*="/job/"].task-icon-link {
@@ -614,8 +602,8 @@ textarea {
 #systemmessage {
     padding: 10px;
     margin-bottom: 5px;
-    background: #FFFDCC;
-    border-bottom: 1px solid #F0E800;
+    background: rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.075);
 }
 
 #systemmessage:empty {
@@ -747,55 +735,6 @@ img[src*="progress-unknown.gif"], img[src*="progress-unknown-red.gif"] {
     max-width: 1px;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-img[src$="images/16x16/blue.png"],     img[src$="images/16x16/blue.gif"],     img[src$="images/16x16/blue_anime.gif"],
-img[src$="images/16x16/yellow.png"],   img[src$="images/16x16/yellow.gif"],   img[src$="images/16x16/yellow_anime.gif"],
-img[src$="images/16x16/red.png"],      img[src$="images/16x16/red.gif"],      img[src$="images/16x16/red_anime.gif"],
-img[src$="images/16x16/grey.png"],     img[src$="images/16x16/grey.gif"],     img[src$="images/16x16/grey_anime.gif"],
-img[src$="images/16x16/disabled.png"], img[src$="images/16x16/disabled.gif"], img[src$="images/16x16/disabled_anime.gif"],
-img[src$="images/16x16/nobuilt.png"],  img[src$="images/16x16/nobuilt.gif"],  img[src$="images/16x16/nobuilt_anime.gif"],
-img[src$="images/16x16/aborted.png"],  img[src$="images/16x16/aborted.gif"],  img[src$="images/16x16/aborted_anime.gif"] {
-    width: 0;
-    height: 16px;
-    padding: 0 16px 0 0;
-}
-
-img[src$="images/24x24/blue.png"],     img[src$="images/24x24/blue.gif"],     img[src$="images/24x24/blue_anime.gif"],
-img[src$="images/24x24/yellow.png"],   img[src$="images/24x24/yellow.gif"],   img[src$="images/24x24/yellow_anime.gif"],
-img[src$="images/24x24/red.png"],      img[src$="images/24x24/red.gif"],      img[src$="images/24x24/red_anime.gif"],
-img[src$="images/24x24/grey.png"],     img[src$="images/24x24/grey.gif"],     img[src$="images/24x24/grey_anime.gif"],
-img[src$="images/24x24/disabled.png"], img[src$="images/24x24/disabled.gif"], img[src$="images/24x24/disabled_anime.gif"],
-img[src$="images/24x24/nobuilt.png"],  img[src$="images/24x24/nobuilt.gif"],  img[src$="images/24x24/nobuilt_anime.gif"],
-img[src$="images/24x24/aborted.png"],  img[src$="images/24x24/aborted.gif"],  img[src$="images/24x24/aborted_anime.gif"] {
-    width: 0;
-    height: 24px;
-    padding: 0 24px 0 0;
-}
-
-img[src$="images/32x32/blue.png"],     img[src$="images/32x32/blue.gif"],     img[src$="images/32x32/blue_anime.gif"],
-img[src$="images/32x32/yellow.png"],   img[src$="images/32x32/yellow.gif"],   img[src$="images/32x32/yellow_anime.gif"],
-img[src$="images/32x32/red.png"],      img[src$="images/32x32/red.gif"],      img[src$="images/32x32/red_anime.gif"],
-img[src$="images/32x32/grey.png"],     img[src$="images/32x32/grey.gif"],     img[src$="images/32x32/grey_anime.gif"],
-img[src$="images/32x32/disabled.png"], img[src$="images/32x32/disabled.gif"], img[src$="images/32x32/disabled_anime.gif"],
-img[src$="images/32x32/nobuilt.png"],  img[src$="images/32x32/nobuilt.gif"],  img[src$="images/32x32/nobuilt_anime.gif"],
-img[src$="images/32x32/aborted.png"],  img[src$="images/32x32/aborted.gif"],  img[src$="images/32x32/aborted_anime.gif"] {
-    width: 0;
-    height: 24px;
-    padding: 0 24px 0 0;
-    margin-left: 5px;
-}
-
-img[src$="images/48x48/blue.png"],     img[src$="images/48x48/blue.gif"],     img[src$="images/48x48/blue_anime.gif"],
-img[src$="images/48x48/yellow.png"],   img[src$="images/48x48/yellow.gif"],   img[src$="images/48x48/yellow_anime.gif"],
-img[src$="images/48x48/red.png"],      img[src$="images/48x48/red.gif"],      img[src$="images/48x48/red_anime.gif"],
-img[src$="images/48x48/grey.png"],     img[src$="images/48x48/grey.gif"],     img[src$="images/48x48/grey_anime.gif"],
-img[src$="images/48x48/disabled.png"], img[src$="images/48x48/disabled.gif"], img[src$="images/48x48/disabled_anime.gif"],
-img[src$="images/48x48/nobuilt.png"],  img[src$="images/48x48/nobuilt.gif"],  img[src$="images/48x48/nobuilt_anime.gif"],
-img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  img[src$="images/48x48/aborted_anime.gif"] {
-    width: 0;
-    height: 48px;
-    padding: 0 48px 0 0;
 }
 
 #main-panel>pre,body>pre {
