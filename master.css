@@ -226,13 +226,16 @@ td.inactive:hover {
     background: rgba(0,0,0,.05)!important;
     padding-left: 0!important;
     padding-right: 0!important;
-    height: 100%!important;
-    position: absolute!important;
+    float: none;
 }
 
 #side-panel div {
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+#side-panel .pane-frame:hover, #side-panel .pane-frame.mouseover {
+    border: none;
 }
 
 #side-panel tr {
