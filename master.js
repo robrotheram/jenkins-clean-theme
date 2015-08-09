@@ -2,11 +2,14 @@
 var $jq = jQuery.noConflict(true);
 
 function stickyFoot() {
-  var bodyHeight = $jq("body.yui-skin-sam").height();
-  var vwptHeight = $jq(window).height();
-  var footHeight = 45;
-  var headerHeight = $jq("#header").height();
-  $jq("#main-table").css("min-height",vwptHeight-footHeight-headerHeight);
+  var dist = $jq("#main-panel").outerHeight() + $jq("#page-head").outerHeight();
+  if(dist > $jq(window).height()) {
+    $jq("footer").css({top : dist + "px"});
+    $jq("footer").css({bottom : "initial"});
+  } else {
+    $jq("footer").css({bottom : "0px"});
+    $jq("footer").css({top : "initial"});
+  }
 }
 
 function updateExecutors() {
